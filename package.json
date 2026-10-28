@@ -1,0 +1,52 @@
+{
+  "name": "cortico-world-filter-paper",
+  "version": "0.3.0",
+  "description": "滤纸：交接笔记只留结论，工具调用的机器日志不进去。省下每轮载入的固定开销，失败原因照旧保留。",
+  "type": "module",
+  "main": "index.js",
+  "license": "AGPL-3.0-or-later",
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "memory",
+    "diagnostics",
+    "handoff",
+    "tokens",
+    "context"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "author": {
+    "name": "filter-paper contributors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weitao0416/cortico-world-filter-paper.git"
+  },
+  "homepage": "https://github.com/weitao0416/cortico-world-filter-paper#readme",
+  "bugs": {
+    "url": "https://github.com/weitao0416/cortico-world-filter-paper/issues"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "client.css",
+    "assets/",
+    "README.md",
+    "LICENSE"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "滤纸",
+    "description": "交接笔记只留结论，机器日志不进去；失败原因照旧保留。",
+    "icon": "assets/icon.svg",
+    "tags": [
+      "memory",
+      "diagnostics"
+    ],
+    "webUiClient": "client.js",
+    "webUiStyle": "client.css"
+  }
+}

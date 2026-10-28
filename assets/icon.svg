@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="filter paper">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6f6a"/>
+      <stop offset="1" stop-color="#173f3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="url(#bg)"/>
+  <!-- 漏斗：上面宽、下面窄，代表把长日志收成短结论 -->
+  <path d="M28 34h72l-27 33v25l-18 10V67z" fill="none" stroke="#8fe3d0" stroke-width="7" stroke-linejoin="round"/>
+  <!-- 落下的三滴：留下的是结论 -->
+  <circle cx="64" cy="103" r="5" fill="#8fe3d0"/>
+  <circle cx="46" cy="112" r="3.2" fill="#8fe3d0" opacity="0.72"/>
+  <circle cx="82" cy="112" r="3.2" fill="#8fe3d0" opacity="0.72"/>
+</svg>
